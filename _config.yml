@@ -1,0 +1,64 @@
+# Site
+name: "pplii"
+title: "People living in the internet"
+description: "people living in the internet"
+# logo: 'assets/images/logo.png'
+# favicon: 'assets/images/logo.png'
+url: bzwear.github.io
+baseurl:
+google_analytics: 'UA-147435230-1'
+disqus: 'bzwear'
+# mailchimp-list: 'https://wowthemes.us11.list-manage.com/subscribe/post?u=8aeb20a530e124561927d3bd8&amp;id=8c3d2d214b'
+include: ["_pages"]
+permalink: /:title/
+
+# Authors
+authors:
+  andrew:
+    name: Andrew
+    display_name: Andrew
+    gravatar: 57f15be0a7163c1f6e7c6c23c60500e5
+    email: andrew@andrew-brothers.com
+    web: https://www.linkedin.com/in/seungminlee/
+    twitter: https://twitter.com/bzwear
+    description: "Hi."
+
+# Plugins
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-archives
+
+# Archives
+jekyll-archives:
+  enabled:
+    - categories
+  layout: archive
+  permalinks:
+    category: '/category/:name/'
+
+# Pagination
+paginate: 6
+paginate_path: /page:num/
+
+# Other
+markdown: kramdown
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    block:
+      line_numbers: true
+
+# Adsense (change to "enabled" to activate, also your client id and ad slot. Create a new ad unit from your Adsense account to get the slot.)
+adsense: "disabled"
+adsense-data-ad-client: "ca-pub-3412143450191416"
+adsense-data-ad-slot: "1363087678"
+
+# Lazy Images ("enabled" or "disabled")
+lazyimages: "disabled"
+
+exclude: [changelog.md, LICENSE.txt, README.md, Gemfile, Gemfile.lock]
