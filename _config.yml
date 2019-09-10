@@ -1,10 +1,10 @@
 # Site
-name: "pplii"
-title: "People living in the internet"
-description: "people living in the internet"
+name: 'pplii'
+title: 'People living in the internet'
+description: 'people living in the internet'
 # logo: 'assets/images/logo.png'
 # favicon: 'assets/images/logo.png'
-url: bzwear.github.io
+url:
 baseurl:
 google_analytics: 'UA-147435230-1'
 disqus: 'bzwear'
